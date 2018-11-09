@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+}
+header{
+	background-image: url("images/image.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 50px;
+	height: 100vh;
+}
+/*en haut*/
+.enhaut {
+    /*display: flex;
+    justify-content: space-around;*/
+		display: grid;
+		grid-template-columns: 20% 60% 20%;
+}
+#menu {
+    display: flex;
+    justify-content: space-around;
+		margin-top: 38px;
+}
+#menu li {
+	list-style: none;
+}
+#menu .item a {
+	text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+}
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+.social-icons a img {
+	width: 30px;
+}
+/*titre du site*/
+#titre-site {
+	padding: 50px;
+	font-size: 4em;
+	width: 70vw;
+	line-height: 1.3em;
+}
+mark {
+	background-color: #E5D012;
+}
+/******content******/
+.content {
+	background-color: #dad5d5;
+	padding-bottom: 50px;
+}
+.content h2 {
+	padding-left: 250px;
+	font-size: 5em;
+	margin: 0;
+	padding: 70px 250px;
+}
+form .icon {
+	width: 30px;
+	margin: auto;
+}
+form {
+	padding: 25px 200px;
+  display: grid;
+  grid-template-columns: 5% 50% 45%;
+}
+form div {
+  padding: 15px;
+}
+form div input{
+	height: 16px;
+  padding: 2%;
+  width: 300px;
+}
+form div select {
+	height: 42px;
+	padding: 2%;
+	width: 324px;
+}
+form #submit {
+	background-color: #E5D012;
+	height: 45px;
+	width: 200px;
+	border-radius: 5px;
+}
+/*****footer*****/
+footer {
+	background-color: #E5D012;
+	padding: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+	margin: 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 1.3em;
+}
+.contact a, .mentions a {
+	text-decoration: none;
+	color: black;
+}
